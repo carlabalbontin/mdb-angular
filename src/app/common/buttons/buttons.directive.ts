@@ -19,7 +19,7 @@ import {
 // tslint:disable-next-line:component-class-suffix
 export class MdbBtnDirective implements OnInit, OnChanges {
   @Input() color = '';
-  @Input() rounded = false;
+  @Input() rounded = true;
   @Input() gradient = '';
   @Input() outline = false;
   @Input() flat = false;

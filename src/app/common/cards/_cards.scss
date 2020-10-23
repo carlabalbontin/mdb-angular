@@ -1,6 +1,7 @@
 // Cards
 .card {
   box-shadow: $z-depth-1;
+  width: 22rem;
   border: 0;
   font-weight: 400;
   &[class*='border'] {
